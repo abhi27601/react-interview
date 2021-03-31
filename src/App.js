@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { store } from "../";
+import { store } from "../store/congureStore";
 import "./style.css";
 import AppRouter from "./routers/AppRouter";
 export default function App() {
